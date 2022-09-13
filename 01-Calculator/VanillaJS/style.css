@@ -1,0 +1,28 @@
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 20vh;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+}
+.input-container input {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+.btn-container {
+  /* border: 1px solid red; */
+  padding: 0.1rem;
+}
+.btn {
+  padding: 5px;
+  font-size: 1.2rem;
+  width: 50px;
+  font-weight: bold;
+}
